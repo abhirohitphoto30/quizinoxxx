@@ -1,0 +1,13 @@
+{
+  "name": "abhishek-tools-hub",
+  "version": "2.0.0",
+  "private": true,
+  "description": "A beautiful, searchable hub for any number of standalone HTML tools by Abhishek Prajapat.",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node -e \"console.log('Static site: run npm run build, then serve dist/ with a local static server.')\""
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
